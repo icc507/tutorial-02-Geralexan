@@ -25,7 +25,7 @@
       "setup": "",
       "run": "python3 problema1.py",
       "input": "w rik 55\r\n33 90",
-      "output": "(33, 90, 'w', 'rik', 33, 90)",
+      "output": "(33, 90, 'w', 'rik', 55, 33, 90)",
       "comparison": "exact",
       "timeout": 10,
       "points": 9
@@ -45,7 +45,7 @@
       "setup": "",
       "run": "python3 problema2.py",
       "input": "20",
-      "output": "20",
+      "output": "(20,)",
       "comparison": "exact",
       "timeout": 10,
       "points": 9
