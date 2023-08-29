@@ -11,6 +11,9 @@
 #         ('mundo', 44, 20, 90, 'hola', 'mundo', 44)
 t = input().split()
 m = input().split()
-tupla1 = tuple(t)
-tupla2 = tuple(m)
-print(tupla2 + tupla1 + tupla2)
+tuplas = m + t + m
+for i in range(len(tuplas)):
+    if tuplas[i].isdigit():
+        tuplas[i] = int(tuplas[i])
+
+print(tuple(tuplas))
